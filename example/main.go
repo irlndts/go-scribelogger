@@ -14,10 +14,9 @@ func main() {
 		EntryBufferSize:     1000,
 	})
 
-	time.Sleep(3 * time.Second)
+	time.Sleep(1 * time.Second)
 
 	fmt.Println(s.IsOpen())
 	s.Log("Debug", "Test Message")
-	fmt.Println(s.IsOpen())
 
 }
